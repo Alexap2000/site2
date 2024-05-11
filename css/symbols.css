@@ -1,0 +1,112 @@
+body {
+    background-color: lightblue;
+}
+
+P {
+    font-size: 50px;
+}
+
+.p1 {
+    background-color: darkorchid;
+    color: darkgreen;
+}
+
+.p2 {
+    color: darkolivegreen
+}
+
+.p3 {
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+.p4 {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.p5 {
+    font-family: "Lucida Console", Courier, monospace;
+}
+
+.p6 {
+    font-family: cursive;
+}
+
+.p7 {
+    font-family: "Rubik Moonrocks", sans-serif;
+    color: orange;
+    text-shadow: 0 0 5px red;
+    text-decoration: underline
+}
+
+.p8 {
+    font-family: "Rubik Broken Fax", system-ui;
+    color: yellow;
+    text-shadow: 3px 3px blue;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-underline-position: under;
+    text-decoration-color: blueviolet
+}
+
+.p9 {
+    font-family: "Rubik Bubbles", system-ui;
+    color: blue;
+    text-shadow: 3px - 3px yellow;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-underline-position: under
+}
+
+.p10 {
+    font-family: "Lobster", sans-serif;
+    color: magenta;
+    text-shadow: 3px - 3px 10px purple;
+    font-weight: 700
+}
+
+.ex1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique
+}
+
+.ex2 {
+    font-family: cursive;
+    font-weight: 100;
+}
+.ex3{
+    font-family: "Lobster", cursive;
+}
+.ex4{
+    font-family: "Rubic Gemstones", cursive;
+}
+.ex5{
+    font-family: "Rubic Wet Paint", cursive;
+    color:red;
+    background-color: black;
+}
+.ex6{
+    text-shadow: 0 0 10px orange;
+}
+.ex7{
+    text-shadow: 3px -3px darkkhaki;
+    text-transform: uppercase;
+}
+.ex8{
+    text-shadow: 1px 1px 2px black, 0 0 1em darkblue, 0 0 0.2em blue;
+    color:wheat;
+    font: 2,5em Georgia, serif;
+    background-color:#fff
+}
+.ex9{
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-underline-position: under;
+    text-decoration-color: black;
+    height:100px
+}
+.fl{
+    font-size: 2em;
+    color:orange;
+    font-family: 'Rubic Gemstones', cursive;
+    
+}

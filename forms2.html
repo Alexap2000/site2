@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Форми</title>
+	<link rel="stylesheet" type="text/css" href="css/forms2.css">
+</head>
+<body>
+<form name = "form2">
+<input type="text" name="text1" size="20" maxlength="50" value="Enter text here" class="in1">
+<input type="text" name="text2" size="30" maxlength="50" value="You cant enter text here" disabled class="in1">
+<input type="text" name="text2" size="30" maxlength="50" value="You can only read here" readonly class="in1">
+<input type="password" name="password" class="in1">
+<p>Enter your gender</p>
+<input type="radio" name="gender" class="in2" value="male"><span class="s1">Male</span>
+<input type="radio" name="gender" class="in2" value="female"><span class="s1">Female</span>
+<input type="radio" name="gender" class="in2" value="other"><span class="s1">Other</span>
+<br>
+<p>What sport are you playing?</p>
+<input type="checkbox" name="sport1" value="football" class="in3">Football<span class="s2"></span>
+<input type="checkbox" name="sport2" value="basketball" class="in3">Basketball<span class="s2"></span>
+<input type="checkbox" name="sport3" value="swimming" checked class="in3">Swimming<span class="s2"></span>
+<input type="checkbox" name="sport4" value="tennis" class="in3">Tennis<span class="s2"></span>
+<input type="checkbox" name="sport4" value="chess" class="in3">Chess<span class="s2"></span>
+<input type="checkbox" name="sport4" value="chess" class="in3">Chess<span class="s2"></span>
+<br>
+<input type="color" name="color" value="color" class="in4">Pick a color<span class="s2"></span>
+<br>
+<br>
+<input type="submit" name="submit" value="Agree">
+<input type="reset" name="reset">
+<input type="button" name="button" value="Run">
+<button>
+	<img src="https://static-00.iconduck.com/assets.00/mail-icon-2048x1675-emuq24or.png" width="50" align="absmiddle">
+	send mail
+</button>
+<br>
+<label for="phone">Enter your phone number:</label>
+<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+<p>Are you from Ukraine?</p>
+<input type="radio" name="gender" class="in2" value="yes"><span class="s1">Yes</span>
+<input type="radio" name="gender" class="in2" value="no"><span class="s1">No</span>
+<br>
+<p>What language do you want to learn?</p>
+<input type="checkbox" name="lang1" value="en" class="in3"><span class="s2">English</span>
+<input type="checkbox" name="lang2" value="sp" class="in3"><span class="s2">Spanish</span>
+<input type="checkbox" name="lang3" value="fr" class="in3"><span class="s2">French</span>
+<input type="checkbox" name="lang3" value="ja" class="in3"><span class="s2">Japanese</span>
+<input type="checkbox" name="lang3" value="ko" class="in3"><span class="s2">Korean</span>
+<input type="checkbox" name="lang3" value="de" class="in3"><span class="s2">German</span>
+<br>
+<input type="file" name="download">Download file
+<br>
+<p>Your notes</p>
+<textarea cols="30" rows="3" wrap="off"></textarea>
+<textarea cols="30" rows="3" wrap="virtual"></textarea>
+<textarea cols="30" rows="3" wrap="physical"></textarea>
+<br>
+<p>Choose a fruit</p>
+<select size="4" multiple>
+	<option value="apple">Apple</option>
+	<option value="Banana">Banana</option>
+	<option value="Pineapple">Pineapple</option>
+	<option value="Orange">Orange</option>
+</select>
+<br>
+<p>Choose your birth date</p>
+<label for="points">Birthdate</label>
+<input type="range" id="birthdate" name="birthdate" min="1920" max="2024">
+<br>
+</form>
+</body>
+</html>

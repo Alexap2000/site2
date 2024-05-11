@@ -1,0 +1,62 @@
+body {
+    background-color: lightcoral;
+}
+
+p {
+    font-size: 50px;
+    color: paleturquoise;
+    font-family: "Rubik Beastly", system-ui;
+    text-shadow: 1px 2px 3px red;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+ul,
+ol,
+dl {
+    font-size: 24px;
+    color: navajowhite
+}
+
+.l1 li::marker {
+    color: green;
+    font-size: 1.1em
+}
+
+.l2 li {
+    padding-left: 10px;
+}
+
+ol {
+    margin-left: 50px;
+}
+
+@counter-style emoji {
+    system: cyclic;
+    symbols: 😀 👻 👽 ✅ 🤖 🎃 😹 👋 👀 💋;
+    suffix: " ";
+}
+
+.l3 {
+    list-style: emoji;
+}
+
+@counter-style ukrainian_cyrillc_alphabet_lowercase {
+    system: cyclic;
+    symbols: а б в г ґ е є ж з и і ї й к л м н п р с т у ф х ц ч ш щ ь ю я;
+    suffix: " ";
+}
+
+@counter-style ukrainian_cyrillc_alphabet_uppercase {
+    system: cyclic;
+    symbols: А Б В Г ґ Е Є Ж З И І Ї К Л М Н О П Р С Т У Ф Х Ц Ч Ш Щ Ь Ю Я;
+    suffix: " ";
+}
+
+.l4 {
+    list-style: ukrainian_cyrillc_alphabet_lowercase;
+}
+
+.l5 {
+    list-style: ukrainian_cyrillc_alphabet_uppercase;
+}
